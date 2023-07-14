@@ -1,0 +1,17 @@
+l=[3,23,12,5,7,8]
+print(l)
+l.append(8)
+print(l)
+l.sort()
+print(l)
+l.sort(reverse=True)
+print(l)
+m=[3,23,12,5,7,8]
+print(m.index(8))
+#n=m
+#n[0]=1
+#print(n)
+m.insert(3,20)
+print(m)
+m.extend(l)
+print(m)
