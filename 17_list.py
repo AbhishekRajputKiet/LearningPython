@@ -8,3 +8,4 @@ if 7 in marks :
     print("Yes")
 else:
     print("No")
+
