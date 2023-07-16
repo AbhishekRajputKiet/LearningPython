@@ -5,5 +5,8 @@ try:
 except:
     print("some error occured")
 finally:
-    print("I am always accepted")
-    
+    print("I am always accepted") # it always execute if in side the function 
+                                # function return at any conditon then finally function still executed
+                                # but at that comdition print statement does not executed
+                                # 
+                                
