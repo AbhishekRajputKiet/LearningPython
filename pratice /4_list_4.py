@@ -19,5 +19,7 @@ a=int(input("Enter a input : "))
 arr=list(map(int,input().strip().split())) 
 b=int(input("Count the occurence of : "))
 print(count(arr,b))
+
+# by using inbuilt function
 print(arr.count(b))
 

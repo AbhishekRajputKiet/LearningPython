@@ -13,3 +13,4 @@ nums=list(map(int,input().strip().split()))
 print("list is : ",nums)
 print("Sum of list is : ",sumoflist(nums))
 print("average of list is : ",average(nums))
+
