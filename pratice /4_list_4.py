@@ -13,8 +13,6 @@ def count(arr,b):
             c+=1
     return c
 
-
-
 a=int(input("Enter a input : "))
 arr=list(map(int,input().strip().split())) 
 b=int(input("Count the occurence of : "))
