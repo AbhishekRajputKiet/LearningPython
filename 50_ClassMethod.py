@@ -10,6 +10,5 @@ e1=Employee()
 e1.name="Abhishek Rajput"
 e1.show()
 e1.changecomp("Apple")
-
 e1.show()
-print(Employee.company)
+print(Employee.company) 

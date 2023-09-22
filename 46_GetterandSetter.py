@@ -5,11 +5,11 @@ class Myclass:
     def show(self):
         print(f"Value is {self._value}")
     
-    @property
+    @property # Getter
     def ten_value(self):
         return 10*self._value
     
-    @ten_value.setter 
+    @ten_value.setter #Setter
     def ten_value(self,newval):
         self._value=newval/10
     
